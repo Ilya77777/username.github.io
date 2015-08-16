@@ -1,0 +1,6 @@
+article p:first-of-type{
+	font-size:150%;
+}
+article p:last-of-type{
+	color:#999;
+}

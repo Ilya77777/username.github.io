@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="#task">
+	<label for="name">Name</label>
+	<br/><input type="text" id="name" name="name" />
+	<br/>
+	<label for="email">Email</label>
+	<br/><input type="text" id="email" name="email" />
+	<br/><br/>
+	Sex<br/>
+	<input type="radio" name="sex" value="Male"/>Male
+	<input type="radio" name="sex" value="Famale"/>Famale
+	<br/><br/>
+	Current status
+	<br/>
+	<input type="checkbox" name="status" value="Student"/>Student
+	<br/>
+	<input type="checkbox" name="status" value="employed"/>Employed
+	<br/>
+	<input type="checkbox" name="status" value="unemployed"/>Unemployed
+	<br/><br/>
+	Month and year of birth
+	<br/>
+	<select type="month" name="month">
+		<option value="jan">January</option>
+		<option value="feb">February</option>
+		<option value="mar">March</option>
+		<option value="other">Other</option>
+	</select>
+	<select type="year" name="year">
+		<option value="1984">1984</option>
+		<option value="1985">1985</option>
+		<option value="1986">1986</option>
+		<option value="other">1987</option>
+	</select>
+	<br/><br/>
+	Skills and Technologies
+	<br/>
+	<select name="skills" multiple size = "10">
+		<optgroup label="Tech Skills"/>
+			<option value="Html"/>HTML</option>
+			<option value="Css"/>CSS</option>
+			<option value="JavaScript"/>JavaScript</option>
+			<option value="Git"/>Git</option>
+		</optgroup>
+		<optgroup label="Soft Skills"/>
+			<option value="Time"/>Time Management</option>
+			<option value="Proactivity"/>Proactivity</option>
+			<option value="Teamwork"/>Teamwork</option>
+			<option value="Leadership"/>Leadership</option>
+		</optgroup>
+	</select>
+	<br/><br/>
+	Photo
+	<br/>
+	<input type="file" name="Photo" value="choose"/>
+	<br/><br/>
+	Comments
+	<br/>
+	<textarea rows="4" cols="20" name="My Text"/></textarea>
+	<br/><br/>
+	<input type="submit" value="Save"/>
+	</form>
+</body>
+</html>

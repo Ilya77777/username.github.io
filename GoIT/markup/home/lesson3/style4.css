@@ -1,0 +1,17 @@
+a[href^="http://"],a[href^="https://"] {
+	color: #f70;
+}
+a[href*="google"]{
+	color: \#666;
+}
+a[target="_blank"]:after{
+	display: inline-block;
+	position: relative;
+	left: 6px;
+	bottom: -3px;
+	content: "\21F1";
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
