@@ -1,0 +1,32 @@
+ul{
+	height: 30px;
+	padding:7px 0 0 0;
+	width: 473px;
+	background-color:#f7f6f6;
+	list-style: none;
+}
+li{
+	display: inline-block;
+    font-size: 11px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    cursor:pointer;
+    padding: 4px 8px;
+    text-transform: uppercase;
+}
+a{
+	color: #a13bcf;
+	text-decoration: none;
+
+}
+.next{
+	border:none;
+}
+li:hover:not(.next){
+	background: #7c12bc;
+	color: #fff;
+}
+li:hover a.class{
+	color: #fff;
+}
+
