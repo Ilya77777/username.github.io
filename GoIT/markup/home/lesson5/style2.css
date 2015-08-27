@@ -1,0 +1,75 @@
+.header{
+	border: 4px solid #ee8129;
+	border-radius: 5px;
+	width: 285px;
+	height: 460px;
+	font-family: "Trebuchet MS";
+}
+h3{
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	top:25px;
+	font-size: 20px;
+	color: #fff;
+}
+.name{
+	height: 75px;
+	background: #ee8129;
+}
+.center{
+	background: #fff;
+}
+p{
+	margin: 25px 0 0 0;
+	text-align: center;
+	color: #414244;
+	font-size: 23px;
+}
+p.date{
+	font-size: 75px;
+	margin: 10px 0 20px 0;
+	color:  #35495a;
+	font-weight: bold;
+}
+sup,sub{
+	font-size: 19px;
+}
+sup {
+	vertical-align: text-top; 
+}
+li:nth-child(2n){
+	background: #F5F5F6;
+}
+li{
+	background: #EDF5FD;
+}
+
+ul {
+	margin: 0 15px 20px; 
+	color: #888C94;
+	list-style-image: url(img/check.png);
+	list-style-position: inside;
+}
+ul li {
+	margin-left: -40px;
+	padding: 7px 0 7px 30px;
+	margin-bottom: 1px;
+}
+ button{ 
+ 	border:none;
+	width: 255px;
+	height: 40px;
+	margin: 18px -40px;
+	border-radius: 5px;
+	background: #ee8129;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	
+}
+button:hover{
+	border-bottom:3px solid #b3560b;
+}        
