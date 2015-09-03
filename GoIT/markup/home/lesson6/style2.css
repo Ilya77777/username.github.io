@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 1400px;
+	background:url(img/task2.jpg) 0 0 no-repeat;
+	height: 315px;
+	font-family: "Trebuchet MS";
+}
+div{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	color:#ee8129;
+	font-size: 40px;
+	font-weight: normal;
+	top:20px;
+}
+h2 span{
+	color: #3170a8;
+}
+.customer1{
+	margin: 0;
+	padding: 0;
+	width:490px;
+	height:98px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	width: 365px;
+}
+li{
+	padding:0 15px;
+}
+.testimonial1 li{
+	width: 335px;
+	height: 98px;
+	background: #fff;
+	list-style: none;
+	margin: 60px 0 0 315px;
+}
+.testimonial1 li:before{
+	position: absolute;
+	background: url(img/lorem1.jpg) 0 0 no-repeat;
+	width: 100px;
+	height: 98px;
+	content: '';
+	left:190px;
+	top: 140px;
+}
+.testimonial2 li{
+	background: #fff;
+	list-style: none;
+	position: absolute;
+	top:140px;
+	right:156px ;
+	width: 335px;
+	height: 98px;
+
+}
+.testimonial2 li:before{
+	background: url(img/lorem2.png) 0 0 no-repeat;
+	position:absolute;
+	width: 100px;
+	height: 98px;
+	content: '';
+	left:-125px;
+}
+.customer span{
+	float: right;
+	font-style: italic;
+	font-size: 14px;
+}
+em{
+	float: left;
+	font-size: 14px;
+}
+li div{
+	margin:0;
+	padding: 15px 0 10px 0;
+	overflow: hidden;
+	border-bottom:1px dotted #666666;
+	color: #3170a8;
+}
+p{
+	color: #666666;
+	margin: 10px 0 0 0;
+	padding: 0;
+	font-size: 13px;
+	letter-spacing: 0.3px;
+	width: 320px;
+	line-height: 1.6;
+}
+.triangle1 {
+    position: relative;
+ 	left: 299px;
+ 	bottom: 58px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-right: 16px solid #fff;
+    border-bottom: 12px solid transparent;
+}
+.triangle2 {
+	position: relative;
+ 	left: 829px;
+ 	bottom: 83px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-right: 16px solid #fff;
+    border-bottom: 12px solid transparent;
+}
