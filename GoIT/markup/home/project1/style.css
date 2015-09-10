@@ -47,6 +47,7 @@ body{
 }
 .header li:hover{
 	border-bottom: 4px solid #3070a8;
+	cursor:pointer;
 }
 .banner{
 	background: url(img/page1.jpg);
