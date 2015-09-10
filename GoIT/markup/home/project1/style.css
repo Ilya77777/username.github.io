@@ -238,7 +238,7 @@ body{
 }
 .testimonial1 li:before{
 	position: absolute;
-	background: url(img/lorem1.jpg) 0 0 no-repeat;
+	background: url(img/Lorem1.jpg) 0 0 no-repeat;
 	width: 100px;
 	height: 98px;
 	content: '';
@@ -256,7 +256,7 @@ body{
 
 }
 .testimonial2 li:before{
-	background: url(img/lorem2.png) 0 0 no-repeat;
+	background: url(img/Lorem2.png) 0 0 no-repeat;
 	position:absolute;
 	width: 100px;
 	height: 98px;
