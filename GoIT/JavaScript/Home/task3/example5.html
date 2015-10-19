@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		var result = "\n";
+		for (var row = 1; row <= 8; row++) {
+  		for (var cell = 1; cell <= 8; cell++) {
+    	result += (row % 2 == cell % 2) ? "#" : " "; 
+  		}
+  		result += "\n";
+		}
+		console.log(result);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
