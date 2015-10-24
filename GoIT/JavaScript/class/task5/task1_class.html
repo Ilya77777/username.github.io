@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		function find(arr, value){
+    	for(var i = 0; i < arr.length; i++){
+        if (arr[i] === value){
+            return i;
+        }
+    	}
+    	return -1;
+		}
+
+		var array = [];
+		console.log(find(array, 3));
+		var test = [1,2,3,4,5];
+		console.log(find(test, 3));
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

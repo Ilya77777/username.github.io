@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+
+		function getCalc(){
+		var arr = [];
+		var i = 0;
+		var sum = 0;
+
+		while(true){
+		var num = prompt('enter the numer','');
+ 		 if ( isNaN(parseFloat(num) && isFinite(num))) break; 
+ 		  arr[i] = num;
+    	i++; 
+		};
+
+		for(i = 0; i < arr.length; i++){
+  		 sum += +arr[i];
+		}
+		return(sum);}
+		console.log(getCalc());
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
