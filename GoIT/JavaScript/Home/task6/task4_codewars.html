@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+
+	function sum(array) {
+	var result = array.reduce(function(sum, current){
+    return sum + current;
+    });
+    return result;
+	}
+
+	/*function sum(array) {
+	var sam=0;
+  	for(i=0;i<array.length;i++){
+  	sam+=array[i];}
+  	return sam;
+	}*/
+
+	var test1 = [71,-548,12.3,83,-47,-1.7,-892,58,31415,2718,-38];
+	console.log(sum(test1))
+	
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

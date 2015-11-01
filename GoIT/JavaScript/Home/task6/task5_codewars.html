@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+
+		function isValidWalk(walk) {
+		var counterN = 0, counterS = 0, counterW = 0,counterE = 0;
+		walk.forEach(function(item){
+		if(item == 'n') counterN++;
+        if(item == 's') counterS++;
+        if(item == 'w') counterW++;
+        if(item == 'e') counterE++;
+		})
+  		return walk.length==10&&counterE==counterW&&counterS==counterN
+		}
+		console.log(isValidWalk(['n','s','n','s','n','s','n','s','n','s']))
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

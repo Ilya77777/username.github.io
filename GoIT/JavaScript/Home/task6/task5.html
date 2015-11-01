@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	function isPal(string){
+		var str=string.toLowerCase().split(' ').join('');
+		if(str==str.split(' ').join('').split('').reverse().join('')){
+			return true;
+		}
+		else{
+			return false
+		}
+		}
+		console.log(isPal('Anna')); 
+		console.log(isPal('А роза упала на лапу Азора')); 
+		console.log(isPal('Вася')); 
+		console.log(isPal('12321')); 
+		console.log(isPal('123212'));
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
