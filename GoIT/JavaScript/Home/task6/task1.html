@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		var obj={
+			className:'open menu'
+		};
+		function removeClass(obj,cls){
+			var classes=obj.className.split(' ');
+			if (classes.indexOf(cls)==1||classes.indexOf(cls)==0){
+				classes.pop(cls);
+			}
+	
+		}
+	removeClass(obj, 'menu');
+
+console.log( "'" + obj.className + "'" );
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
