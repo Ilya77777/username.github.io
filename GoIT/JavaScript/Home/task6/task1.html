@@ -4,31 +4,23 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script>
-var obj = {
+
+	var obj = {
      className: 'close menu open menu menu my'
-   }; 
-
-function removeClass(obj, cls){
-    
-     var classes = obj.className.split(' ');
-   
-     while(true){
-      if(classes.indexOf(cls) != -1)
-          classes.splice(classes.indexOf(cls), 1);
-   
-      
-      else 
-            break;
-        
-     }
-  
+    };
+	function removeClass(obj, cls){
+    var classes = obj.className.split(' ');
+    while(true){
+    if(classes.indexOf(cls) != -1)
+        classes.splice(classes.indexOf(cls), 1);
+    else 
+        break; 
+    }
      obj.className = classes.join(" ");
+  	}
+ 	removeClass(obj,'menu');
+ 	console.log(obj.className);
 
- }
-
-
- removeClass(obj,'menu');
- console.log(obj.className);
 	</script>
 </head>
 <body>

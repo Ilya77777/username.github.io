@@ -5,13 +5,12 @@
 	<title>Document</title>
 	<script>
 
-		
 		function unique(arr){
 		var result=[];
 		nextItem:for(var i=0;i<arr.length;i++){
-			var str=arr[i];
+		var str=arr[i];
 		for(var j=0;j<result.length;j++){
-			if (result[j]==str)continue nextItem;
+		if (result[j]==str)continue nextItem;
 		}
 		result.push(str)
 		}
@@ -19,6 +18,7 @@
 		}
 		var strings = ['кришна', 'кришна', 'харе', 'харе', 'харе', 'харе', 'кришна', 'кришна', '8-()' ];
 		console.log(unique(strings))
+
 	</script>
 </head>
 <body>
