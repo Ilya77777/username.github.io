@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+
+	var add = function (a, b) {
+   		 return a + b;
+	};
+
+	var double = function (n) {
+    return n * 2;
+	};
+
+	var make_lazy = function () {
+    var args = arguments;
+    return function(){
+        return args[0].apply(args, [].slice.call(args, 1));
+    };
+
+	};
+	var lazy_sum = make_lazy(add, 2, 3);
+	console.log(lazy_sum());
+	
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
