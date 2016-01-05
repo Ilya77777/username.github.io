@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div style="white-space: pre"> Напишите функцию getDocumentScroll(), которая возвращает объект с информацией о текущей прокрутке и области видимости.
+
+        Свойства объекта-результата:
+
+        top — координата верхней границы видимой части (относительно документа).
+        bottom — координата нижней границы видимой части (относительно документа).
+        height — полная высота документа, включая прокрутку.
+        В этой задаче учитываем только вертикальную прокрутку: горизонтальная делается аналогично, а нужна сильно реже.
+    </div>
+
+    <script>
+        function getDocumentScroll() {
+            var scrollHeight = Math.max(
+                    document.body.scrollHeight, document.documentElement.scrollHeight,
+                    document.body.offsetHeight, document.documentElement.offsetHeight,
+                    document.body.clientHeight, document.documentElement.clientHeight
+            );
+            return {
+                top: pageYOffset,
+                bottom: pageYOffset + document.documentElement.clientHeight,
+                height: scrollHeight
+            };
+        }
+        alert('top: ' + getDocumentScroll().top);
+        alert('bottom: ' + getDocumentScroll().bottom);
+        alert('height: ' + getDocumentScroll().height);
+    </script>
+</body>
+</html>
