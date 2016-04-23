@@ -250,7 +250,7 @@ header .btn-primary.active,header .btn-primary.focus,header .btn-primary:active,
 
 #works img
 {
-    margin-top: 50px;
+    margin-top: 20px;
 	cursor:pointer;
 	margin-bottom:50px;
 	transform:rotate(7deg);
