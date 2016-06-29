@@ -19,11 +19,11 @@ body {
     margin-bottom: 30px;
 }
 .img-hover{
-   
+   transition:all 6s;
 }
 .img-hover:hover {
     opacity: 0.5;
-   
+    transition:all 6s;
     transform:scale(1.1);
 }
 
