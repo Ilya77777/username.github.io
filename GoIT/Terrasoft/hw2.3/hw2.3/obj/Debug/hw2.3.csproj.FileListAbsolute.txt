@@ -1,0 +1,5 @@
+D:\с#\hw2.3\hw2.3\bin\Debug\hw2.3.exe.config
+D:\с#\hw2.3\hw2.3\bin\Debug\hw2.3.exe
+D:\с#\hw2.3\hw2.3\bin\Debug\hw2.3.pdb
+D:\с#\hw2.3\hw2.3\obj\Debug\hw2.3.exe
+D:\с#\hw2.3\hw2.3\obj\Debug\hw2.3.pdb
