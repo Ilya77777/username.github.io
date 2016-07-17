@@ -1,0 +1,6 @@
+D:\с#\hw2.2\hw2.2\bin\Debug\hw2.2.exe.config
+D:\с#\hw2.2\hw2.2\bin\Debug\hw2.2.exe
+D:\с#\hw2.2\hw2.2\bin\Debug\hw2.2.pdb
+D:\с#\hw2.2\hw2.2\obj\Debug\hw2.2.csprojResolveAssemblyReference.cache
+D:\с#\hw2.2\hw2.2\obj\Debug\hw2.2.exe
+D:\с#\hw2.2\hw2.2\obj\Debug\hw2.2.pdb

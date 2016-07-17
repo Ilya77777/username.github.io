@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hw_2._2
+namespace hw2._2
 {
     class Program
     {
@@ -53,7 +53,7 @@ namespace hw_2._2
                 int side = Convert.ToInt32(ans);
                 int side1 = Convert.ToInt32(ans1);
                 int side2 = Convert.ToInt32(ans2);
-                double count = side * side1*side2;
+                double count = side * side1 * side2;
                 Console.WriteLine(count);
             }
             else
