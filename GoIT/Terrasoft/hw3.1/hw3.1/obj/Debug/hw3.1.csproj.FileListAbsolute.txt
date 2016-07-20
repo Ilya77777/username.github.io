@@ -1,0 +1,6 @@
+D:\с#\hw3.1\hw3.1\bin\Debug\hw3.1.exe.config
+D:\с#\hw3.1\hw3.1\bin\Debug\hw3.1.exe
+D:\с#\hw3.1\hw3.1\bin\Debug\hw3.1.pdb
+D:\с#\hw3.1\hw3.1\obj\Debug\hw3.1.exe
+D:\с#\hw3.1\hw3.1\obj\Debug\hw3.1.pdb
+D:\с#\hw3.1\hw3.1\obj\Debug\hw3.1.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+D:\с#\hw4.1\hw4.1\bin\Debug\hw4.1.exe.config
+D:\с#\hw4.1\hw4.1\bin\Debug\hw4.1.exe
+D:\с#\hw4.1\hw4.1\bin\Debug\hw4.1.pdb
+D:\с#\hw4.1\hw4.1\obj\Debug\hw4.1.exe
+D:\с#\hw4.1\hw4.1\obj\Debug\hw4.1.pdb
+D:\с#\hw4.1\hw4.1\obj\Debug\hw4.1.csprojResolveAssemblyReference.cache
