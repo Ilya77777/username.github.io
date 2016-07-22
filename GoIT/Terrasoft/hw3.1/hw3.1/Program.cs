@@ -10,6 +10,7 @@ namespace hw3._1
     {
         static void Main(string[] args)
         {
+
             string[] logins = new string[] { "adm", "moder", "user" };
             string[] passwords = new string[] { "qwerty", "pass", "1234" };
             string[] roles = new string[] { "admin", "moderator", "user" };
@@ -19,43 +20,8 @@ namespace hw3._1
 
             Console.WriteLine("Input your password: ");
             string pass = Console.ReadLine();
-            if (pass != passwords[0])
-            {
-                Console.WriteLine("try again");
-                pass = Console.ReadLine();
-                if(pass != passwords[0])
-                {
-                    Console.WriteLine("try again");
-                    pass = Console.ReadLine();
-                    if (pass != passwords[0])
-                    {
-                        Console.WriteLine("try again");
-                        pass = Console.ReadLine();
-                    }
-                    else
-                    {
-                        Console.WriteLine("Hello, Admin!");
-                        Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[0], passwords[0], roles[0]);
-                        Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[1], passwords[1], roles[1]);
-                        Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[2], passwords[2], roles[2]);
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Hello, Admin!");
-                    Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[0], passwords[0], roles[0]);
-                    Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[1], passwords[1], roles[1]);
-                    Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[2], passwords[2], roles[2]);
-                }
-            }
-            else
-            {
-                Console.WriteLine("Hello, Admin!");
-                Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[0], passwords[0], roles[0]);
-                Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[1], passwords[1], roles[1]);
-                Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[2], passwords[2], roles[2]);
-            }
-           /* if(log == logins[0] && pass == passwords[0] )
+
+            if (log == logins[0] && pass == passwords[0])
             {
                 Console.WriteLine("Hello, Admin!");
                 Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[0], passwords[0], roles[0]);
@@ -64,18 +30,43 @@ namespace hw3._1
             }
             else if (log == logins[1] && pass == passwords[1])
             {
-                Console.WriteLine("We have 3 users in our system");
+                Console.WriteLine("We have {0} users in our system", logins.Length);
             }
-            else if(log == logins[2] && pass == passwords[2])
+            else if (log == logins[2] && pass == passwords[2])
             {
                 Console.WriteLine("Hello, User! \n");
                 Console.WriteLine("User with role user: {0}", logins[2]);
             }
             else
             {
-                Console.WriteLine("Try again");
-            }*/
-                Console.ReadKey();
+                for (int i = 0; i < 2; i++)
+                {
+                    Console.WriteLine("Try again!");
+                    pass = Console.ReadLine();
+                    if (log == logins[i] && pass == passwords[i]) break;
+                }
+                if (pass == passwords[0])
+                {
+                    Console.WriteLine("Hello, Admin!");
+                    Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[0], passwords[0], roles[0]);
+                    Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[1], passwords[1], roles[1]);
+                    Console.WriteLine("User: {0}. Password: {1}. Role: {2}.", logins[2], passwords[2], roles[2]);
+                }
+                else if (pass == passwords[1])
+                {
+                    Console.WriteLine("We have {0} users in our system", logins.Length);
+                }
+                else if (pass == passwords[2])
+                {
+                    Console.WriteLine("Hello, User!");
+                    Console.WriteLine("User with role user: {0}", logins[2]);
+                }
+                else
+                {
+                    Console.WriteLine("Try next time");
+                }
+            }
+            Console.ReadKey();
         }
     }
 }
