@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+			<title>bond project q</title>
+			<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="css/main.min.css" />
+			
+
+
+<script src="//vk.com/js/api/openapi.js"></script>
+<script>
+var app_key = '577890372391146';
+var vk_key = '5570959';
+</script>
+
+</head>
+<body>
+	
+	
+	
+	<div class="main">	
+		<div class="container">
+			<div class="step step_0">
+				<p>step_0</p>
+				<div>	
+			  <input class="inputs" type="text" id="i1"/>
+              <input class="inputs" type="text" id="i2"/>
+              <input class="inputs" type="text" id="i3"/>
+              <input class="inputs" type="text" id="i4"/>
+              <input class="inputs" type="text" id="i5"/>
+              <input class="inputs" type="text" id="i6"/>
+				</div>
+				
+				<button class="sbmt">dgashj</button>
+			 
+              
+            </div>
+			
+			
+			
+			
+			<!--true branch -->
+			<div class="step step_1_ok off">
+				<h1>ACCESS ACCEPTED!</h1>
+				<p>Auth by VK or FB to WIN COOL SPY PRIZES</p>
+				<input type="button" value="FB AUTH" onclick="Login();" />
+		        <input type="button" value="VK AUTH" onclick="LoginVK();" />
+				<div class="new_user">emulate new user</div>
+				<div class="old_user">emulate exist user</div>
+			</div>
+			
+			<div class="step auth_ok off">
+				<h1>AUTH SUCCESS!</h1>
+				<p>Share this page to your friends!</p>
+			</div>
+			
+			<div class="step auth_alredy_exist off">
+				<h1>YOU ALREDY EXIST!</h1>
+				<p>Share this page to your friends!</p>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			<!--false branch -->
+			<div class="step step_1_notok off">
+				<h1>WRONG!!!!</h1>
+				<div class="to_video">to video</div>
+				<div class="to_step_0">to code</div>
+			</div>
+			
+			<div class="step video_block off">
+				<h1>Video here</h1>
+				<div class="to_step_0">to code</div>
+			</div>
+			
+			
+			
+			
+			
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	<div id="vk_api_transport"></div>
+	<form id="go" action="" method="post" class="off">
+			<input type="text" name="code"/>
+			<button type="submit">ok</button>
+	</form>
+
+	<div class="next off">
+		<input type="button" value="FB AUTH" onclick="Login();" />
+		<input type="button" value="VK AUTH" onclick="LoginVK();" />
+	</div>
+	<div class="next_back off">try again</div>
+
+
+
+
+
+	
+	
+
+
+
+	
+
+
+
+<script src="js/main.js"></script>
+
+
+
+	
+</body>
+</html>
